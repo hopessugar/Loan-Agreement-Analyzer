@@ -1,4 +1,4 @@
-# Mifos Loan Agreement Analyzer
+# Loan Agreement Analyzer
 
 An LLM-powered tool that extracts and validates financial terms from loan agreements.
 
