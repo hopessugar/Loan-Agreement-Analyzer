@@ -5,7 +5,7 @@ import os
 
 # ── PAGE CONFIG ────────────────────────────────────────────────────
 st.set_page_config(
-    page_title="Mifos Loan Analyzer",
+    page_title="Mifos X Smart Contract & Loan Agreement Summarizer",
     page_icon="🏦",
     layout="wide",
     initial_sidebar_state="collapsed"
@@ -648,7 +648,7 @@ st.markdown("""
   <div class="nav-left">
     <div class="nav-logo">S</div>
     <div>
-      <div class="nav-title">Loan Agreement Analyzer</div>
+      <div class="nav-title">Mifos X Smart Contract & Loan Agreement Summarizer</div>
       <div class="nav-sub"></div>
     </div>
   </div>
@@ -664,7 +664,7 @@ st.markdown('<div class="app-shell">', unsafe_allow_html=True)
 st.markdown('<div class="main-wrap">', unsafe_allow_html=True)
 
 st.markdown("""
-<div class="hero-title">Loan Agreement <span>Analyzer</span></div>
+<div class="hero-title">Mifos X Smart Contract & <span>Loan Agreement Summarizer</span></div>
 <div class="hero-sub">Paste a loan agreement to extract key financial terms, validate numbers, and highlight borrower risks. The backend runs locally and uses an LLM for structured extraction.</div>
 """, unsafe_allow_html=True)
 
